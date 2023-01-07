@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>freeArve</id>
+    <version>1.0.0</version>
+    <authors>freeArve</authors>
+    <license type="file">LICENSE-2.0.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="DocumentFormat.OpenXml" version="2.18.0" exclude="Build,Analyzers" />
+        <dependency id="ExcelDataReader" version="3.6.0" exclude="Build,Analyzers" />
+        <dependency id="IronXL.Excel" version="2022.9.8711" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Graph" version="4.41.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Office.Interop.Excel" version="15.0.4795.1001" exclude="Build,Analyzers" />
+        <dependency id="System.Data.OleDb" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\ssvet\source\repos\freeArve\bin\Debug\net6.0-windows\freeArve.runtimeconfig.json" target="lib\net6.0-windows7.0\freeArve.runtimeconfig.json" />
+    <file src="C:\Users\ssvet\source\repos\freeArve\bin\Debug\net6.0-windows\freeArve.dll" target="lib\net6.0-windows7.0\freeArve.dll" />
+    <file src="C:\Users\ssvet\OneDrive\Desktop\Earve\LICENSE-2.0.txt" target="\LICENSE-2.0.txt" />
+  </files>
+</package>
